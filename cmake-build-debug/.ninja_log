@@ -1,0 +1,7 @@
+# ninja log v5
+13	837	1685977030489310559	CMakeFiles/Project1.dir/main.cpp.o	e941b6098cace15
+1	98	1685983232861573083	build.ninja	f0e2798d1b52a098
+83	1002	1685979081474289089	CMakeFiles/RayTracingInOneWeekend.dir/main.cpp.o	b8e53c3e76ecf19c
+1002	1110	1685979081585982674	RayTracingInOneWeekend	e55def36fe73c36d
+13	888	1685983430292409762	CMakeFiles/RayTracingInOneWeekend.dir/main.cpp.o	b8e53c3e76ecf19c
+888	1006	1685983430413212578	RayTracingInOneWeekend	e55def36fe73c36d
