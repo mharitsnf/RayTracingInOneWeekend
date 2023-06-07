@@ -94,6 +94,9 @@
 		<Unit filename="C:/Users/hnurfauzan/Documents/RayTracingInOneWeekend/common/hittable_list.h">
 			<Option target="RayTracingInOneWeekend"/>
 		</Unit>
+		<Unit filename="C:/Users/hnurfauzan/Documents/RayTracingInOneWeekend/common/material.h">
+			<Option target="RayTracingInOneWeekend"/>
+		</Unit>
 		<Unit filename="C:/Users/hnurfauzan/Documents/RayTracingInOneWeekend/common/ray.h">
 			<Option target="RayTracingInOneWeekend"/>
 		</Unit>

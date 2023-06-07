@@ -182,13 +182,14 @@ CMakeFiles/RayTracingInOneWeekend.dir/main.cpp.obj: \
  C:\Users\hnurfauzan\Documents\RayTracingInOneWeekend\common/color.h \
  C:\Users\hnurfauzan\Documents\RayTracingInOneWeekend\common/hittable_list.h \
  C:\Users\hnurfauzan\Documents\RayTracingInOneWeekend\common/hittable.h \
+ C:\Users\hnurfauzan\Documents\RayTracingInOneWeekend\common/util.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/vector \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_vector.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_bvector.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/vector.tcc \
  C:\Users\hnurfauzan\Documents\RayTracingInOneWeekend\common/sphere.h \
  C:\Users\hnurfauzan\Documents\RayTracingInOneWeekend\common/camera.h \
- C:\Users\hnurfauzan\Documents\RayTracingInOneWeekend\common/util.h \
+ C:\Users\hnurfauzan\Documents\RayTracingInOneWeekend\common/material.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/fstream \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/codecvt.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \

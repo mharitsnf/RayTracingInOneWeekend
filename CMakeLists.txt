@@ -3,4 +3,4 @@ project(RayTracingInOneWeekend)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(RayTracingInOneWeekend main.cpp common/vec3.h common/color.h common/ray.h common/hittable.h common/sphere.h common/hittable_list.h common/util.h common/camera.h)
+add_executable(RayTracingInOneWeekend main.cpp common/vec3.h common/color.h common/ray.h common/hittable.h common/sphere.h common/hittable_list.h common/util.h common/camera.h common/material.h)
