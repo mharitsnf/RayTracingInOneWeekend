@@ -6,6 +6,8 @@
 #include "common/camera.h"
 
 #include <iostream>
+#include <fstream>
+#include <string>
 
 
 color ray_color(const ray& r, const hittable& world, int depth) {
@@ -26,6 +28,17 @@ color ray_color(const ray& r, const hittable& world, int depth) {
 }
 
 int main() {
+    // Setup
+    std::string filename;
+    std::cout << "Filename: ";
+    std::cin >> filename;
+
+    // Redirect to a file
+    std::string full_path("Results/");
+    std::ofstream out(full_path.append(filename).append(".ppm"));
+    std::cout << "Will be saved on " << full_path << "\n";
+    std::cout.rdbuf(out.rdbuf());
+
     // Image
     const auto aspect_ratio = 16.0 / 9.0;
     const int image_width = 1280;
