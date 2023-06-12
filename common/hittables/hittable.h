@@ -5,7 +5,8 @@
 #ifndef RAYTRACINGINONEWEEKEND_HITTABLE_H
 #define RAYTRACINGINONEWEEKEND_HITTABLE_H
 
-#include "util.h"
+#include "../util.h"
+#include "../aabb.h"
 
 class material;
 
@@ -14,6 +15,8 @@ struct hit_record {
     vec3 normal;
     shared_ptr<material> mat_ptr;
     double t;
+    double u;
+    double v;
     bool front_face;
 
     inline void set_face_normal(const ray& r, const vec3& outward_normal) {
@@ -25,6 +28,7 @@ struct hit_record {
 class hittable {
 public:
     virtual bool hit(const ray& r, double t_min, double t_max, hit_record& rec) const = 0;
+    virtual bool bounding_box(double time0, double time1, aabb& output_box) const = 0;
 };
 
 #endif //RAYTRACINGINONEWEEKEND_HITTABLE_H

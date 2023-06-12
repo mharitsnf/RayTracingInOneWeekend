@@ -100,7 +100,11 @@
 				6,
 				7,
 				8,
-				9
+				9,
+				10,
+				11,
+				12,
+				13
 			]
 		}
 	],
@@ -129,17 +133,17 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "common/hittable.h",
+			"path" : "common/hittables/hittable.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "common/sphere.h",
+			"path" : "common/hittables/sphere.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "common/hittable_list.h",
+			"path" : "common/hittables/hittable_list.h",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -155,6 +159,26 @@
 		{
 			"backtrace" : 1,
 			"path" : "common/material.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "common/hittables/moving_sphere.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "common/aabb.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "common/hittables/bvh_node.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "common/texture.h",
 			"sourceGroupIndex" : 1
 		}
 	],
