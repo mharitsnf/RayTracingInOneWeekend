@@ -5,7 +5,7 @@
 #ifndef RAYTRACINGINONEWEEKEND_RAY_H
 #define RAYTRACINGINONEWEEKEND_RAY_H
 
-#include "vec3.h"
+#include "../vec3/vec3.h"
 
 class ray {
 public:

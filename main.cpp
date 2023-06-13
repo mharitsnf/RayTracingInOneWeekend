@@ -4,14 +4,21 @@
 
 #include "common/util.h"
 #include "common/hittables/hittable_list.h"
-#include "common/color.h"
+#include "common/vec3/color.h"
 
-#include "common/material.h"
-#include "common/camera.h"
+#include "common/materials/material.h"
+#include "common/materials/lambertian.h"
+#include "common/materials/metal.h"
+#include "common/materials/dielectric.h"
+
+#include "common/camera/camera.h"
 
 #include "common/hittables/sphere.h"
 #include "common/hittables/moving_sphere.h"
-#include "common/texture.h"
+
+#include "common/textures/texture.h"
+#include "common/textures/solid_color.h"
+#include "common/textures/checker_texture.h"
 
 hittable_list random_scene() {
     hittable_list world;
@@ -86,35 +93,24 @@ int main() {
     // Setup
     std::string filename;
     std::cout << "Filename: ";
-    std::cin >> filename;
+    std::getline(std::cin, filename);
 
     // Redirect to a file
     std::string full_path("Results/");
     std::ofstream out(full_path.append(filename).append(".ppm"));
     std::cout << "Will be saved on " << full_path << "\n";
     std::cout.rdbuf(out.rdbuf());
+    std::streambuf* coutBuffer = std::cout.rdbuf();
+    std::cout.rdbuf(out.rdbuf());
 
     // Image
     auto aspect_ratio = 16.0 / 9.0;
-    int image_width = 400;
+    int image_width = 640;
     int samples_per_pixel = 100;
     const int max_depth = 50;
 
     // World
     auto world = random_scene();
-
-//    hittable_list world;
-//
-//    auto material_ground = make_shared<lambertian>(color(0.8, 0.8, 0.0));
-//    auto material_center = make_shared<lambertian>(color(0.1, 0.2, 0.5));
-//    auto material_left   = make_shared<dielectric>(1.5);
-//    auto material_right  = make_shared<metal>(color(0.8, 0.6, 0.2), 0.0);
-//
-//    world.add(make_shared<sphere>(point3( 0.0, -100.5, -1.0), 100.0, material_ground));
-//    world.add(make_shared<sphere>(point3( 0.0,    0.0, -1.0),   0.5, material_center));
-//    world.add(make_shared<sphere>(point3(-1.0,    0.0, -1.0),   0.5, material_left));
-//    world.add(make_shared<sphere>(point3(-1.0,    0.0, -1.0),  -0.4, material_left));
-//    world.add(make_shared<sphere>(point3( 1.0,    0.0, -1.0),   0.5, material_right));
 
     // Camera
     point3 lookfrom(13,2,3);
@@ -154,6 +150,9 @@ int main() {
     }
 
     std::cerr << "\nDone.\n";
+
+    std::cout.rdbuf(coutBuffer);
+    out.close();
 
     return 0;
 }

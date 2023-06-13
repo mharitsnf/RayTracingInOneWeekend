@@ -5,7 +5,7 @@
 #ifndef RAYTRACINGINONEWEEKEND_CAMERA_H
 #define RAYTRACINGINONEWEEKEND_CAMERA_H
 
-#include "util.h"
+#include "../util.h"
 
 class camera {
 private:

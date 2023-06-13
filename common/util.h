@@ -54,7 +54,7 @@ inline double clamp(double x, double min, double max) {
 
 // Common Headers
 
-#include "ray.h"
-#include "vec3.h"
+#include "ray/ray.h"
+#include "vec3/vec3.h"
 
 #endif //RAYTRACINGINONEWEEKEND_UTIL_H

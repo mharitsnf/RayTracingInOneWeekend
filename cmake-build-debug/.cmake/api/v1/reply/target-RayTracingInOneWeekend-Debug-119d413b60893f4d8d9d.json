@@ -104,7 +104,12 @@
 				10,
 				11,
 				12,
-				13
+				13,
+				14,
+				15,
+				16,
+				17,
+				18
 			]
 		}
 	],
@@ -118,17 +123,17 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "common/vec3.h",
+			"path" : "common/vec3/vec3.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "common/color.h",
+			"path" : "common/vec3/color.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "common/ray.h",
+			"path" : "common/ray/ray.h",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -153,12 +158,12 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "common/camera.h",
+			"path" : "common/camera/camera.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "common/material.h",
+			"path" : "common/materials/material.h",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -178,7 +183,32 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "common/texture.h",
+			"path" : "common/textures/texture.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "common/materials/lambertian.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "common/materials/metal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "common/materials/dielectric.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "common/textures/solid_color.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "common/textures/checker_texture.h",
 			"sourceGroupIndex" : 1
 		}
 	],
