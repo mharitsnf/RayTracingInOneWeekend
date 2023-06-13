@@ -1,6 +1,6 @@
 # ninja log v5
-1	98	1686648998341071621	build.ninja	f0e2798d1b52a098
-15	1106	1686646901406371142	CMakeFiles/RayTracingInOneWeekend.dir/main.cpp.o	b8e53c3e76ecf19c
-1106	1220	1686646901525513543	RayTracingInOneWeekend	e55def36fe73c36d
-14	960	1686649081735131458	CMakeFiles/RayTracingInOneWeekend.dir/main.cpp.o	b8e53c3e76ecf19c
-961	1060	1686649081837355756	RayTracingInOneWeekend	e55def36fe73c36d
+1	98	1686658559824750128	build.ninja	f0e2798d1b52a098
+12	1253	1686658315943885014	CMakeFiles/RayTracingInOneWeekend.dir/main.cpp.o	b8e53c3e76ecf19c
+1253	1351	1686658316045961356	RayTracingInOneWeekend	e55def36fe73c36d
+15	1349	1686658621076110637	CMakeFiles/RayTracingInOneWeekend.dir/main.cpp.o	b8e53c3e76ecf19c
+1349	1438	1686658621169112575	RayTracingInOneWeekend	e55def36fe73c36d
